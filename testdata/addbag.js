@@ -5,6 +5,6 @@ class addbag{
         this.btn=page.getByRole("button",{name:'Pack'})
         this.cart=page.locator("//span[.='Bag']")
         this.c=page.locator("//span[.='Bag']")
-    }
+    }  
 }
 export default addbag
