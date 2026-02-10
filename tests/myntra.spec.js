@@ -13,7 +13,7 @@ await sbox.pd.scrollIntoViewIfNeeded()
     let [wt]=await Promise.all([page.waitForEvent('popup'),
         
                                 sbox.pd.click()])
-    let addb=new ab(wt)
+    let addb=new ab(page)
     await addb.btn.click()
     await addb.abt.click()
     await addb.cart.click()
